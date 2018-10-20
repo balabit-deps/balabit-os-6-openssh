@@ -1,3 +1,9 @@
+openssh (1:7.2p2-4ubuntu2.5bb1) bionic; urgency=medium
+
+  * Balabit patched version
+
+ -- Balabit Platform Team <devnull@dev.null>  Sat, 20 Oct 2018 04:22:45 +0200
+
 openssh (1:7.2p2-4ubuntu2.5) xenial; urgency=medium
 
   * debian/systemd/ssh.service: Test configuration before starting or
