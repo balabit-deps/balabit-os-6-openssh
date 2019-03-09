@@ -1,3 +1,28 @@
+openssh (1:7.2p2-4ubuntu2.8) xenial-security; urgency=medium
+
+  * SECURITY UPDATE: Incomplete fix for CVE-2019-6111
+    - debian/patches/CVE-2019-6111-2.patch: add another fix to the filename
+      check in scp.c.
+    - CVE-2019-6111
+  * Fixed inverted CVE numbers in patch filenames and in previous
+    changelog.
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Mon, 04 Mar 2019 07:50:38 -0500
+
+    - debian/patches/CVE-2019-6109.patch: make sure the filenames match
+    - debian/patches/CVE-2019-6111.patch: make sure the filenames match
+    - CVE-2019-6109
+    - CVE-2019-6111
+    - debian/patches/CVE-2019-6111-pre1.patch: backport snmprintf from
+    - debian/patches/CVE-2019-6109-pre1.patch: backport snmprintf from
+    - debian/patches/CVE-2019-6111-pre2.patch: update vis.h and vis.c from
+    - debian/patches/CVE-2019-6109-pre2.patch: update vis.h and vis.c from
+    - debian/patches/CVE-2019-6111-1.patch: sanitize scp filenames via
+    - debian/patches/CVE-2019-6109-1.patch: sanitize scp filenames via
+    - debian/patches/CVE-2019-6111-2.patch: force progressmeter updates in
+    - debian/patches/CVE-2019-6109-2.patch: force progressmeter updates in
+    - CVE-2019-6111
+    - CVE-2019-6109
 openssh (1:7.2p2-4ubuntu2.7bb1) xenial; urgency=medium
 
   * Balabit patched version
