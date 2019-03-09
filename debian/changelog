@@ -1,3 +1,9 @@
+openssh (1:7.2p2-4ubuntu2.8bb1) xenial; urgency=medium
+
+  * Balabit patched version
+
+ -- Balabit Platform Team <devnull@dev.null>  Sat, 09 Mar 2019 04:22:50 +0100
+
 openssh (1:7.2p2-4ubuntu2.8) xenial-security; urgency=medium
 
   * SECURITY UPDATE: Incomplete fix for CVE-2019-6111
