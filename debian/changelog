@@ -1,3 +1,9 @@
+openssh (1:7.2p2-4ubuntu2.10bb1) xenial; urgency=medium
+
+  * Balabit patched version
+
+ -- Balabit Platform Team <devnull@dev.null>  Sat, 04 Jul 2020 04:27:04 +0200
+
 openssh (1:7.2p2-4ubuntu2.10) xenial; urgency=medium
 
   * Fix deadlock when AuthorizedKeysCommand produces a large output.
